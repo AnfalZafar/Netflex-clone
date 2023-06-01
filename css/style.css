@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.7)),url(/images/netflex\ home.jpg);
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+.nav-img img{
+    width: 140px;
+}
+.nav-btn button{
+    background: crimson;
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.login{
+    text-decoration: none;
+    color: #fff;
+
+}
+.detail{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%,-50%);
+    color: #fff;
+}
+.detail-h1{
+    font-size: 4rem;
+}
+.detail-p{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+@media (max-width:1250px){
+    .detail{
+        width: 80%;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        transform: translate(-30%,-50%);
+        color: #fff;
+    }
+}
+@media (max-width:750px){
+    .detail{
+        width: 70%;
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        transform: translate(-30%,-50%);
+        color: #fff;
+    }
+    .detail-h1{
+        font-size: 3rem;
+    }
+    .detail-p{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+}
